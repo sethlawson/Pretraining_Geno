@@ -2,9 +2,9 @@
 For pretraining ncRNA GPT large language models
 
 # To train from scratch
-Build the conda environment 'rna2' from the yaml file in the directory
-Download rnacentral_active.fasta and place in the directory.
-Enter the directory.
+Build the conda environment 'rna2' from the yaml file in the directory.
+Download rnacentral_active.fasta from https://ftp.ebi.ac.uk/pub/databases/RNAcentral/current_release/sequences/ to the directory.
+Enter the directory, activate rna2.
 Execute python scripts 00-11.
 
 00: Parses fasta headers for the rna species and generates a dictionary of sequences that are accessible by keys corresponding to the rna species. The dictionary is saved as rnacentral_dict.json. 
